@@ -21,7 +21,6 @@ function switchTab(newTab) {
         oldTab.classList.add("current-tab");
 
         if(!searchForm.classList.contains("active")) {
-            
             userInfoContainer.classList.remove("active");
             grantAccessContainer.classList.remove("active");
             searchForm.classList.add("active");
@@ -58,7 +57,6 @@ function getfromSessionStorage() {
     console.log(coordinates);
         fetchUserWeatherInfo(coordinates);
     }
-
 }
 
 async function fetchUserWeatherInfo(coordinates) {

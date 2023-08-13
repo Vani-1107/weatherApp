@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <title>WeatherSphere</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap"
     rel="stylesheet" />
@@ -14,7 +14,7 @@
 <body>
     
     <div class="wrapper">
-        <h1>WeatherSphere</h1>
+        <h1 class="header-decor">WeatherSphere</h1>
         <div class="tab-container">
             <p class="tab" data-userWeather>Your Weather</p>
             <p class="tab" data-searchWeather>Search Weather</p>
@@ -30,7 +30,7 @@
                 <button class="btn" data-grantAccess>Grant Access</button>
             </div>
 
-            <!-- search form -> form-container-->
+            <!-- search form -><-- form-container-->
             <form class="form-container" data-searchForm>
                 <input placeholder="Search for City..." data-searchInput>
                 <button class="btn" type="submit">
@@ -53,7 +53,7 @@
                     <img data-countryIcon>
                 </div>
 
-                <!-- weather descriptuion-->
+                <!-- weather description-->
                 <p data-weatherDesc></p>
                 <!--weather Icon-->
                 <img data-weatherIcon>
@@ -101,74 +101,3 @@
 </body>
 </html>
 
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="weather.css">
-</head>
-<body>
-    
-    <div class="wrapper">
-        <h2 class="heading">WEATHER APP</h2>
-        <div class="buttons">
-            <button class="button1 tab">Your Weather</button>
-            <button class="button2 tab">Search Weather</button>
-        </div>
-        <div class="weather-container">
-            grant location access 
-            <div class="grant-access sub-container">
-                <img src="./location.png" width="80" height="80" alt="" loading="lazy">
-                <h2 class="ga-head">Grant Location Access</h2>
-                <p class="ga-para">Allow Access To Get Weather Information</p>
-                <button class="ga-button">GRANT ACCESS</button>
-            </div>
-            search form 
-            <form class="form-container" data-searchForm>
-                <input placeholder="Search For City..." data-searchCity>
-                <button class="btn btn-form" type="submit">
-                    <img src="./search.png" width="20" height="20" alt="" loading="lazy">
-                </button>
-            </form>
-            your weather 
-            <div class="sub-container your-weather">
-                <div class="yw-head">
-                    <div class="yw-name"></div>
-                    <img src="" alt="" class="yw-country">
-                </div>
-                <div class="yw-type"></div>
-                <img alt="" class="yw-img">
-                <div class="yw-temp"></div>
-                <div class="yw-box">
-                    <div class="box yw-ws">
-                        <img src="./wind.png" width="" height="" alt="" class="yw-img-ws">
-                        <p class="yw-text-ws">WINDSPEED</p>
-                        <div class="yw-speed-ws"></div>
-                    </div>
-                    <div class="box yw-h">
-                        <img src="./humidity.png" alt="" class="yw-img-h">
-                        <p class="yw-text-h">HUMIDITY</p>
-                        <div class="yw-speed-h"></div>
-                    </div>
-                    <div class="box yw-c">
-                        <img src="./cloud.png" alt="" class="yw-img-c">
-                        <p class="yw-text-c">CLOUDS</p>
-                        <div class="yw-speed-c"></div>
-                    </div>
-                </div>
-            </div>
-            
-            loading screen 
-            <div class="sub-container loading-container">
-                <img src="./loading.gif" alt="" width="150" height="150">
-                <p>Loading</p>
-            </div>
-        </div>
-
-    </div>
-
-    <script src="weather.js"></script>
-</body>
-</html> -->
