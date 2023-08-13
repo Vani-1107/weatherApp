@@ -51,7 +51,7 @@ h1 {
 }
 
 .weather-container{
-    margin-block:4rem;
+    margin-block-start:4rem;
 }
 
 .btn{
@@ -156,6 +156,7 @@ h1 {
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
+    margin-bottom: 5rem;
 }
 
 .parameter{
@@ -167,7 +168,6 @@ h1 {
     display: flex;
     flex-direction: column;
     gap:5px 0;
-    /* justify-content: space-between; */
     align-items: center; 
 }
 
@@ -236,6 +236,7 @@ h1 {
     .parameter-container{
         flex-direction: column;
         gap: 20px 0;
+        padding-bottom: 5rem;
     }
     .parameter{
         width: 200px;
