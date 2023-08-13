@@ -12,7 +12,9 @@
     --colorLight2: #F9F7F7;
 }
 
-.wrapper{
+.wrapper
+{
+    position: absolute;
     width:100vw;
     min-height:100vh;
     color: var(--colorLight2);
@@ -51,9 +53,9 @@ h1 {
 }
 
 .weather-container{
-    margin-block-start:4rem;
+    /* margin-block-start:4rem; */
+    margin-block:4rem ;
 }
-
 .btn{
     all: unset;
     font-size: 0.85rem;
